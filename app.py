@@ -3,6 +3,7 @@ from flask import Flask,request,render_template
 import numpy as nu
 import pandas as pa
 from sklearn import metrics
+import sklearn
 import warnings
 import pickle
 warnings.filterwarnings('ignore')
